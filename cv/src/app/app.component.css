@@ -1,0 +1,33 @@
+.profile,.content,.navi{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+.page{
+  border: none;
+}
+.profile{
+  width: 22%;
+  position: fixed;
+  overflow-x: hidden;
+
+}
+.navi{
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+.navi button{
+  height: 100%;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  outline: none;
+  background-color: inherit;
+  margin-right: 1%;
+  transition: 0.4s;
+}
+.navi button.active{
+  background-color: #ffe52c;
+}
+.content{
+  margin-left: 30%;
+}
+
