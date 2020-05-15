@@ -1,6 +1,7 @@
 .profile,.content,.navi{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
+  background-color: white;
 }
 .page{
   border: none;
@@ -14,6 +15,7 @@
 .navi{
   margin-left: 30%;
   margin-bottom: 2%;
+  background-color: rgba(1, 172, 230, 0.28);
 }
 .navi button{
   height: 100%;
@@ -23,11 +25,21 @@
   background-color: inherit;
   margin-right: 1%;
   transition: 0.4s;
+  font-weight: bold;
+  font-size: large;
 }
-.navi button.active{
-  background-color: #ffe52c;
+.selections button.active{
+  color: rgb(0, 145, 255);
+}
+.selections button:hover{
+  color: rgb(0, 145, 255);
 }
 .content{
   margin-left: 30%;
 }
 
+#home{
+  border-top-left-radius:10px ;
+  border-bottom-left-radius: 10px;
+  background-color: rgba(27, 192, 232, 0.63);
+}

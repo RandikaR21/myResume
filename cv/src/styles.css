@@ -1,5 +1,6 @@
 body{
-  background-color: #fbfbff;
+  background-image: url("assets/2.jpg");
+  background-size: cover;
   padding: 5% 5% 2% 5%;
 }
 

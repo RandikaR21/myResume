@@ -3,10 +3,12 @@
     <app-profile></app-profile>
   </div>
   <div class="navi">
-    <button [ngClass]="{'active': loadComponent === 0}" class="homeBtn" (click)="selectedComponent(0)">Home</button>
+    <button id="home" (click)="selectedComponent(0)">Home</button>
+  <span class="selections">
     <button [ngClass]="{'active': loadComponent === 1}"  (click)="selectedComponent(1)">Education</button>
     <button [ngClass]="{'active': loadComponent === 2}"  (click)="selectedComponent(2)">Work Experience</button>
     <button [ngClass]="{'active': loadComponent === 3}"  (click)="selectedComponent(3)">Contact</button>
+  </span>
   </div>
   <div class="content">
 
