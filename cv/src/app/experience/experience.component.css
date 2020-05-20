@@ -1,3 +1,16 @@
 .experience{
   padding:2% 6% 2% 6%;
 }
+.place{
+  color: #6e6e6e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.place:hover{
+  text-decoration: underline;
+}
+.date{
+  color: #00bd02;
+  font-weight: bold;
+}
