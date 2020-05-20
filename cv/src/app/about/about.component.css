@@ -1,0 +1,65 @@
+.content-body{
+  padding:2% 6% 2% 6%;
+  display: block;
+}
+.content-body h1{
+  margin-bottom: 3%;
+  color: #6e6e6e;
+  font-weight: bold;
+  text-decoration: underline #2196F3;
+}
+
+.content-body h5{
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  padding: 0;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+.skills {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  background-color: #2196F3;
+  border-radius: 20px;
+}
+
+.gridSkills{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 30px;
+}
+h2{
+  margin: 0;
+  padding: 0;
+}
+.skillSection{
+  width: 70%;
+  margin-bottom: 3%;
+}
+.skillSection ul{
+  list-style-type: circle;
+}
+.skillSection p{
+  padding: 0;
+  margin: 0;
+}
+.myInterests ul{
+  list-style-type: circle;
+
+}
+.about,.myInterests,.mySkills{
+  margin:4% 1% 5% 1%;
+}
+
+@media only screen and (max-width:500px) {
+  .gridSkills{
+    display: block;
+  }
+}

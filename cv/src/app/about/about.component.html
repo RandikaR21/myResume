@@ -1,0 +1,50 @@
+<div class="content-body">
+  <section class="about">
+    <h1>About Me</h1>
+    <p>Self-motivated enthusiastic undergraduate with excellent organizing and time management skills.
+      Keen interest in the subject and highly passionate to become a skilled software engineer.
+      Proficient in mathematics and problem solving and eager to face challenging technical problems.
+      I am keen to find an internship in a challenging company to enhance the scope of my knowledge and to get familiar with the industry.</p>
+  </section>
+  <section class="myInterests">
+    <h1>Interests</h1>
+    <ul *ngFor="let interest of interests">
+      <li>{{interest}}</li>
+    </ul>
+  </section>
+
+  <section class="mySkills">
+    <h1>Skills</h1>
+    <div class="skillSection">
+      <h5>Programming Languages</h5>
+      <ul *ngFor="let skills of programmingArray">
+        <li>{{ skills.name}}
+        <div class="container">
+          <div class="skills" [ngStyle]="{'width':skills.confidence}">{{skills.confidence}}</div>
+        </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="skillSection">
+      <h5>Web Design</h5>
+      <ul *ngFor="let skills of webDevopArray" >
+        <li>{{ skills.name}}
+        <div class="container">
+          <div class="skills" [ngStyle]="{'width':skills.confidence}">{{skills.confidence}}</div>
+        </div>
+        </li>
+      </ul>
+    </div>
+    <div class="skillSection">
+      <h5>Other technical skills</h5>
+      <ul *ngFor="let skills of otherSkills">
+        <li>{{ skills.name}}
+        <div class="container">
+          <div class="skills" [ngStyle]="{'width':skills.confidence}">{{skills.confidence}}</div>
+        </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>

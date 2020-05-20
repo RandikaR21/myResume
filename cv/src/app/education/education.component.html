@@ -1,0 +1,78 @@
+<section class="myEducation">
+  <div class="timeline">
+    <div class="container left">
+      <div class="content contentAlign">
+        <h5>BEng Software Engineering</h5>
+        <h6 ><a href="https://www.westminster.ac.uk/" target="_blank" class="place">University of Westminster</a></h6>
+        <p class="date ongoing"><span class="fa fa-calendar" style="margin-right: 10px"></span>09/2018 -present</p>
+        <button (click)="viewResults(2)" class="resultsbtn">{{toggleResults[2]}}</button>
+        <div style="width: 100% ; transition: 5s" *ngIf="toView[2]" >
+          <p><b>Second Year Results</b></p>
+          <table class="table table-striped" style="text-align: left">
+            <tbody>
+            <tr *ngFor="let sub of uniSecondYear">
+              <td>{{sub.subject}}</td>
+              <td class="ongoing">{{sub.marks}}</td>
+            </tr>
+            </tbody>
+          </table>
+
+          <p><b>First Year Results</b></p>
+          <table class="table table-striped" style="text-align: left">
+            <tbody>
+            <tr *ngFor="let sub of uniFirstYear">
+              <td>{{sub.subject}}</td>
+              <td style="color: blue; font-weight: bold;">{{sub.marks}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h5>Certified Information Security Expert (CISE)</h5>
+        <h6><a href="http://www.netassist.com.lk/" target="_blank" class="place">NetAssists Sri-Lanka</a></h6>
+        <p class="date ongoing"><i>07/2018 - present</i></p>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content contentAlign">
+        <h5>Advance Level</h5>
+        <h6><a href="http://snic.lk/wp/" target="_blank" class="place">St.Nicholas International College Negombo</a></h6>
+        <p class="date"><i>09/2016 - 05/2018</i></p>
+        <p class="results">2A* and A (Math Stream)</p>
+        <button (click)="viewResults(1)" class="resultsbtn">{{toggleResults[1]}}</button>
+        <div style="width: 100%" *ngIf="toView[1]">
+          <table class="table table-striped" style="text-align: left">
+            <tbody>
+            <tr *ngFor="let sub of aLevels">
+              <td>{{sub.subject}}</td>
+              <td style="color: blue; font-weight: bold;">{{sub.grade}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content" >
+        <h5>Ordinary Level</h5>
+        <h6><a href="http://snic.lk/wp/" target="_blank" class="place">St.Nicholas International College Negombo</a></h6>
+        <p class="date"><i>09/2013 - 05/2016</i></p>
+        <p class="results">4A* and 4A (Science Stream)</p>
+        <button (click)="viewResults(0)" class="resultsbtn">{{toggleResults[0]}}</button>
+        <div style="width: 100%" *ngIf="toView[0]">
+          <table class="table table-striped">
+            <tbody>
+            <tr *ngFor="let sub of oLevel">
+              <td>{{sub.subject}}</td>
+              <td style="color: blue; font-weight: bold;">{{sub.grade}}</td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin:0;
+}
+
+div{
+  overflow: hidden;
+}
+.main{
+  padding: 6%;
+  text-align: left;
+  background-color: rgba(27, 192, 232, 0.63);
+}
+.info{
+  display: block;
+  text-align: center;
+}
+table{
+  padding: 0;
+  margin: 4%;
+  width: 92%;
+  text-align: left;
+  font-size: 1vw;
+  overflow: hidden;
+
+
+}
+th{
+  padding: 2%;
+  color: rgba(175, 175, 175,1);
+  text-align: center;
+  font-size: 100%;
+}
+td{
+  padding: 2%;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.details{
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+@media only screen and (max-width:1000px) {
+  table{font-size: 1.3vw}
+}
+
+@media only screen and (max-width:500px) {
+  table{font-size: 4vw}
+}
