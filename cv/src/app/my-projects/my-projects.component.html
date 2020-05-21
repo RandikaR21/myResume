@@ -1,1 +1,16 @@
-<p>my-projects works!</p>
+<section id="myProjects">
+  <div class="project" *ngFor="let project of myProjects">
+    <div class="container">
+      <img src="assets/apeHanda.PNG" width="100%" alt="project" class="image">
+      <div class="overlay">
+        <div class="text">
+          <h2 class="projectName">{{project.name}}</h2>
+          {{project.overlay}}
+        </div>
+      </div>
+    </div>
+    <p>
+      {{project.description}}
+    </p>
+  </div>
+</section>

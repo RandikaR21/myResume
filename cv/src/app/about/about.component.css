@@ -3,10 +3,11 @@
   display: block;
 }
 .content-body h1{
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   color: #6e6e6e;
   font-weight: bold;
   text-decoration: underline #2196F3;
+  text-align: center;
 }
 
 .content-body h5{
@@ -28,6 +29,10 @@
   font-weight: bold;
   background-color: #2196F3;
   border-radius: 20px;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
 }
 
 .gridSkills{
@@ -41,23 +46,48 @@ h2{
 }
 .skillSection{
   width: 70%;
-  margin-bottom: 3%;
+  margin:2% 15% 6% 15%;
 }
 .skillSection ul{
   list-style-type: circle;
+  padding-left: 0;
+}
+.skillSection h5{
+  text-align: center;
 }
 .skillSection p{
   padding: 0;
   margin: 0;
 }
-.myInterests ul{
-  list-style-type: circle;
-
-}
 .about,.myInterests,.mySkills{
-  margin:4% 1% 5% 1%;
+  margin:4% 1% 7% 1%;
 }
 
+.myInterests h4{
+  margin-bottom: 3%;
+}
+
+/*Skill bar animation to support multiple browsers*/
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-webkit-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-moz-keyframes load{
+  from {
+    width: 0%
+  }
+}
+@-o-keyframes load{
+  from {
+    width: 0%
+  }
+}
 @media only screen and (max-width:500px) {
   .gridSkills{
     display: block;

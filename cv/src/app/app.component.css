@@ -23,7 +23,6 @@
   border: none;
   outline: none;
   background-color: inherit;
-  margin-right: 1%;
   transition: 0.4s;
   font-weight: bold;
   font-size: large;
@@ -43,7 +42,9 @@
   border-bottom-left-radius: 10px;
   background-color: rgba(27, 192, 232, 0.63);
 }
-
+.naviText{
+  margin-left: 10px;
+}
 @media only screen and (max-width:500px) {
   .profile{
     width: 100%;
