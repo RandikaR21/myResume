@@ -1,7 +1,7 @@
 <section id="myProjects">
   <div class="project" *ngFor="let project of myProjects">
     <div class="container">
-      <img src="assets/apeHanda.PNG" width="100%" alt="project" class="image">
+      <img [src]=project.image width="100%" [alt]=project.name class="image">
       <div class="overlay">
         <div class="text">
           <h2 class="projectName">{{project.name}}</h2>
