@@ -3,12 +3,18 @@
     <app-profile></app-profile>
   </div>
   <div class="navi">
-    <button id="home" (click)="selectedComponent(0)"><i class="fa fa-home"></i><span class="naviText">Home</span></button>
-  <span class="selections">
-    <button [ngClass]="{'active': loadComponent === 1}"  (click)="selectedComponent(1)"><i class="fa fa-graduation-cap"></i><span class="naviText">Education</span></button>
-    <button [ngClass]="{'active': loadComponent === 2}"  (click)="selectedComponent(2)"><i class="fa fa-desktop"></i><span class="naviText">Experience</span></button>
-    <button [ngClass]="{'active': loadComponent === 3}"  (click)="selectedComponent(3)"><i class="fa fa-phone"></i><span class="naviText">Contact</span></button>
-  </span>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" (click)="selectedComponent(0)" class="active"><i class="fa fa-home" style="margin-right: 5px"></i>Home</a>
+      <a href="#news" (click)="selectedComponent(1)"><i class="fa fa-graduation-cap" style="margin-right: 5px"></i>Education</a>
+      <a href="#contact" (click)="selectedComponent(2)"><i class="fa fa-briefcase" style="margin-right: 5px"></i>Experience</a>
+      <a href="#about" (click)="selectedComponent(3)"><i class="fa fa-user" style="margin-right: 5px"></i>Contact</a>
+      <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <script>
+
+    </script>
   </div>
   <div class="content">
     <app-about *ngIf="loadComponent==0"></app-about>
