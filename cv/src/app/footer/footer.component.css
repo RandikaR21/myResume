@@ -1,0 +1,19 @@
+#footer{
+  padding: 2% 8% 2% 8%;
+  text-align: center;
+  background-color: #4a4a4a;
+  border-radius: 8px;
+}
+
+#footer p{
+  color: white;
+}
+.socialMediaIcon{
+  text-decoration: none;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
