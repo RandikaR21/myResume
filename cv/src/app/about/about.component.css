@@ -1,5 +1,5 @@
 .content-body{
-  padding:2% 6% 2% 6%;
+  padding:2% 0 2% 0;
   display: block;
 }
 .content-body h1{
@@ -60,7 +60,11 @@ h2{
   margin: 0;
 }
 .about,.myInterests,.mySkills{
-  margin:4% 1% 7% 1%;
+  padding:4% 1% 7% 1%;
+}
+
+.myInterests{
+  background-color: #eeeeee;
 }
 
 .myInterests h4{
