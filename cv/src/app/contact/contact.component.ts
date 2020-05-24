@@ -12,8 +12,5 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
-  a(){
-    console.log("dscszdc")
-  }
 
 }

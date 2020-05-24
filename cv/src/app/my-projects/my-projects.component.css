@@ -35,7 +35,6 @@
 
 .text {
   color: white;
-  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -57,4 +56,14 @@
 
 .project:hover{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media only screen and (max-width:1000px) {
+  .container:hover .overlay {
+    opacity:0;
+  }
+  .project:hover{
+    box-shadow: none;
+  }
+
 }

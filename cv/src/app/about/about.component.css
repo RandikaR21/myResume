@@ -6,8 +6,12 @@
   margin-bottom: 5%;
   color: #6e6e6e;
   font-weight: bold;
-  text-decoration: underline #2196F3;
+  text-decoration: underline #ffd000;
   text-align: center;
+}
+
+.content-body p{
+  padding: 0 4% 0 4%;
 }
 
 .content-body h5{

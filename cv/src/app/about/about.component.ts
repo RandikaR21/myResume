@@ -9,7 +9,7 @@ export class AboutComponent implements OnInit {
   programmingArray=[
     {
       name : 'Python',
-      confidence : '70%'
+      confidence : '80%'
     },
     {
       name : 'Java',
@@ -17,14 +17,24 @@ export class AboutComponent implements OnInit {
     },
     {
       name: 'JavaScript',
-      confidence: '50%'
-    }
+      confidence: '70%'
+    },
+    {
+      name: 'TypeScript',
+      confidence: '70%'
+    },
+    {
+      name : 'SQL',
+      confidence: '80%'
+    },
+
+
   ];
 
   webDevopArray=[
     {
       name : 'HTML',
-      confidence : '70%'
+      confidence : '90%'
     },
     {
       name : 'CSS',
@@ -32,15 +42,11 @@ export class AboutComponent implements OnInit {
     },
     {
       name: 'Angular',
-      confidence: '50%'
+      confidence: '80%'
     }
   ];
 
   otherSkills=[
-    {
-      name : 'SQL',
-      confidence: '80%'
-    },
     {
       name: 'Adobe Photoshop',
       confidence: '50%'

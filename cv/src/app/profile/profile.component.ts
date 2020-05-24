@@ -16,6 +16,6 @@ export class ProfileComponent implements OnInit {
   }
 
   imageSrc="assets/SELF.jpg";
-  cvLocation="assets/Randika-Rodrigo.docx"
+  cvLocation="assets/Randika Rodrigo CV.pdf"
 
 }
