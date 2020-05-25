@@ -1,13 +1,6 @@
 .experience{
-  padding:2% 6% 2% 6%;
-}
-.experience h1{
-  margin-top: 5%;
-  margin-bottom: 7%;
-  color: #6e6e6e;
-  font-weight: bold;
-  text-decoration: underline #ffd000;
-  text-align: center;
+  padding:1% 0 1% 0;
+  display: block;
 }
 .place{
   color: #6e6e6e;
@@ -21,4 +14,27 @@
 .date{
   color: #00bd02;
   font-weight: bold;
+}
+
+
+#competitions{
+  background-color: #eeeeee;
+  text-align: center;
+}
+#competitions div{
+  margin-bottom: 30px;
+}
+
+#competitions p{
+  color: #6e6e6e;
+  font-style: italic;
+  font-size: small;
+}
+
+#workExp,#competitions,#myProjects{
+  padding:4% 1% 7% 1%;
+}
+
+.content{
+  padding: 0 4% 0 4%;
 }

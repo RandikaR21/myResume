@@ -1,6 +1,8 @@
 <div class="content-body">
   <section class="about">
-    <h1>About</h1>
+    <div class="heading">
+      <h1>About</h1>
+    </div>
     <p>Hello I'am Randika Rodrigo, I am 19 years old and a 3rd Year Software Engineering undergraduate at the university of westminster.
       I am a Full Stack developer and a data science enthusiastic.<br/><br/>
       In a nutshell I'm a Self-motivated enthusiastic undergraduate with excellent organizing and time management skills. Self and Fast learner with
@@ -11,14 +13,18 @@
     </p>
   </section>
   <section class="myInterests">
-    <h1>Interests</h1>
+    <div class="heading">
+      <h1>Interests</h1>
+    </div>
     <div style="text-align: center" *ngFor="let interest of interests">
       <h5><b>{{interest}}</b></h5>
     </div>
   </section>
 
   <section class="mySkills">
-    <h1>Skills</h1>
+    <div class="heading">
+      <h1>Competitions</h1>
+    </div>
     <div class="skillSection">
       <h5>Programming Languages</h5>
       <ul *ngFor="let skills of programmingArray">
