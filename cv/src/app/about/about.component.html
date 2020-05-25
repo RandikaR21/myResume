@@ -1,12 +1,12 @@
 <div class="content-body">
   <section class="about">
     <div class="heading">
-      <h1>About</h1>
+      <h1>ABOUT</h1>
     </div>
-    <p>Hello I'am Randika Rodrigo, I am 19 years old and a 3rd Year Software Engineering undergraduate at the university of westminster.
+    <p style="text-align: center">Hello I'am Randika Rodrigo, I am 19 years old and a 3rd Year Software Engineering undergraduate at the university of westminster.
       I am a Full Stack developer and a data science enthusiastic.<br/><br/>
-      In a nutshell I'm a Self-motivated enthusiastic undergraduate with excellent organizing and time management skills. Self and Fast learner with
-      Keen interest in the subject and highly passionate to become a skilled software engineer.
+      In a nutshell I'm a self-motivated enthusiastic undergraduate with excellent organizing and time management skills. Self and Fast learner with
+      a keen interest in the subject and highly passionate to become a skilled software engineer.
       Proficient in mathematics and problem solving and eager to face challenging technical problems.<br/><br/>
       I'm keen to find an internship in a challenging company to enhance the scope of my knowledge and to get familiar with the industry.
       Through my internship I hope to get the necessary exposure needed to complete my Bachelor's degree and start my career.
@@ -14,7 +14,7 @@
   </section>
   <section class="myInterests">
     <div class="heading">
-      <h1>Interests</h1>
+      <h1>INTERESTS</h1>
     </div>
     <div style="text-align: center" *ngFor="let interest of interests">
       <h5><b>{{interest}}</b></h5>
@@ -23,7 +23,7 @@
 
   <section class="mySkills">
     <div class="heading">
-      <h1>Competitions</h1>
+      <h1>SKILLS</h1>
     </div>
     <div class="skillSection">
       <h5>Programming Languages</h5>
@@ -44,6 +44,12 @@
           <div class="skills" [ngStyle]="{'width':skills.confidence}">{{skills.confidence}}</div>
         </div>
         </li>
+      </ul>
+    </div>
+    <div class="skillSection">
+      <h5>Other technologies that I have worked with</h5>
+      <ul *ngFor="let tech of otherTech">
+        <li>{{ tech}}</li>
       </ul>
     </div>
     <div class="skillSection">

@@ -49,7 +49,11 @@ h2{
   list-style-type: circle;
   padding-left: 0;
 }
+.skillSection ul li{
+  font-weight: bold;
+}
 .skillSection h5{
+  text-decoration: underline;
   text-align: center;
 }
 .skillSection p{

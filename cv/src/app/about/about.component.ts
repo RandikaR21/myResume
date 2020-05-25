@@ -27,6 +27,10 @@ export class AboutComponent implements OnInit {
       name : 'SQL',
       confidence: '80%'
     },
+    {
+      name : 'C#',
+      confidence: '50%'
+    },
 
 
   ];
@@ -48,6 +52,10 @@ export class AboutComponent implements OnInit {
 
   otherSkills=[
     {
+      name: 'Github',
+      confidence: '80%'
+    },
+    {
       name: 'Adobe Photoshop',
       confidence: '50%'
     },
@@ -62,6 +70,16 @@ export class AboutComponent implements OnInit {
     'Cyber Security',
     'Machine Learning',
     'Game Development'
+  ];
+  otherTech=[
+    "NodeJS",
+    "MongoDB",
+    "Flask",
+    "Spring Boot",
+    "Bootstrap",
+    "JavaFX",
+    "TensorFlow Python and JavaScript",
+    "Unity gaming engine"
   ];
 
   constructor() {
