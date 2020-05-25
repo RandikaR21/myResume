@@ -25,8 +25,8 @@ export class MyProjectsComponent implements OnInit {
       image:"assets/oop.PNG",
     },
     {
-      name:"",
-      overlay:"3D role playing game",
+      name:"3D role playing game",
+      overlay:"",
       description:"is a 3D role playing game built with Unity gaming engine and C# programming language. " +
         "This was a group project for the game development competition in which my role was to build the movements of the characters.",
       image:"assets/gdc.PNG",
@@ -37,13 +37,6 @@ export class MyProjectsComponent implements OnInit {
       description:"This is a physic engine built for the Unity gaming engine to demonstrate few aspects of physics and mathematics for gaming." +
         " The development was done with Unity and C#",
       image:"assets/maths.PNG",
-    },
-    {
-      name:"Fitness App",
-      overlay:"",
-      description:"This project is fitness web based mobile app for sprinters that will generate a random location in the map and will track the speed and distance of the sprinter." +
-        "To build this I used HTML, CSS and Javascript along with the MapBox API.",
-      image:"assets/apeHanda.PNG",
     },
     {
       name:"4 Man Squad Gaming",
